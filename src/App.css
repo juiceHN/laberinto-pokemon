@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Press Start 2P Regular'), local('PressStart2P-Regular'), url(https://fonts.gstatic.com/s/pressstart2p/v6/8Lg6LX8-ntOHUQnvQ0E7o08SWvhA5BcWCS8xVZDIH7E.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+.App {
+  text-align: center;
+  line-height: 11px;
+}
+body{
+  background-color: black;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+h1{
+  color:white;
+  font-size: 20px;
+  font-family: 'Press Start 2P';
+}
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.paredes{
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  display: inline-block;
+}
+.nada{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.hola{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.personaje{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
+.pokemon{
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}
